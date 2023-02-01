@@ -6,7 +6,7 @@
 
 .header{
   min-height: 100vh;
-  background-image: url("../kuvat/tausta.png");
+  background-image: url("../kuvat/taivas.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -47,7 +47,7 @@
 }
 
 .menu ul li:hover{
-  background-color: blueviolet;
+  background-color: whitesmoke;
   transition: 0.5s ease;
 }
 
@@ -104,7 +104,7 @@
   font-size: 15px;
   color: azure;
   display: inline-block;
-  background-color: green;
+  background-color: darkblue;
   border-radius: 3px;
   padding: 12px 3px;
   letter-spacing: 1.5px;
@@ -121,7 +121,7 @@
   }
   .menu ul{
     width: 100%;
-    background-color: red;
+    background-color: darkgray;
     flex-direction: column;
     align-items: center;
     padding-right: 0px;
