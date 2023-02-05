@@ -1,5 +1,7 @@
-const nappi = document.getElementsByClassName('btn1')[0]
-const navmenu = document.getElementsByClassName('menu')[0]
-nappi.addEventListener('click', () =>{
-  navmenu.classList.toggle('active')
-})
+let menu = document.querySelector("#menu-icon");
+let navbar = document.querySelector(".navbar");
+
+menu.onclick = () =>{
+    menu.classList.toggle('bx-x');
+    navbar.classList.toggle('open');
+}
