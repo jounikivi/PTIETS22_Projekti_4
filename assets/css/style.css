@@ -117,12 +117,12 @@ header{
   width: 32px;
 }
 
-.btn1 .bar{
+/* .btn1 .bar{
   height: 4px;
   width: 100%;
   background-color: #fff;
   border-radius: 10px;
-}
+} */
 
 .content{
  width: 100%;
@@ -152,17 +152,29 @@ header{
 
 .content .btn2 {
   margin-top: 27px;
+  display: inline-block;
+  font-size: 19px;
+  text-transform: capitalize;
+  color: #fff;
+  border: 2px solid  lightblue;
+  padding: 10px 30px;
+  border-radius: 30px;
+  background-color: lightblue;
+  letter-spacing: 1px;
+  font-weight: 500;
+  margin-right: 15px;
+  transition: all .42s;
 }
 
 .content .btn2 a{
   text-decoration: none;
   font-size: 15px;
-  color: azure;
   display: inline-block;
-  background-color: darkblue;
-  border-radius: 8px;
-  padding: 12px 3px;
+  border-radius: 5px;
+  padding: 4px 3px;
   letter-spacing: 1.5px;
+
+  border-radius: 10px;
 }
 .content .btn2 a:hover{
   background-color: aqua;
