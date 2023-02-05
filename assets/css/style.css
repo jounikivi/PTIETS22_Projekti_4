@@ -152,21 +152,31 @@ header{
 
 .content .btn2 {
   margin-top: 27px;
+  display: inline-block;
+  font-size: 19px;
+  text-transform: capitalize;
+  color: #fff;
+  border: 2px solid  lightblue;
+  padding: 10px 30px;
+  border-radius: 30px;
+  background-color: lightblue;
+  letter-spacing: 1px;
+  font-weight: 500;
+  margin-right: 15px;
+  transition: all .42s;
 }
 
 .content .btn2 a{
   text-decoration: none;
   font-size: 15px;
-  color: azure;
   display: inline-block;
-  background-color: darkblue;
   border-radius: 8px;
   padding: 12px 3px;
-  letter-spacing: 1.5px;
+  letter-spacing: 1.5px; 
+  
 }
 .content .btn2 a:hover{
-  background-color: aqua;
-  transform: 0.5s ease;
+  background-color: transparent;
 }
 
 @media screen and (max-width: 768px) {
