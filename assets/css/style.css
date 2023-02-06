@@ -59,6 +59,7 @@ header{
   font-weight: 500;
   margin-right: 15px;
   transition: all .42s;
+  text-decoration: none;
 }
 .btn:hover{
   background-color: transparent;
