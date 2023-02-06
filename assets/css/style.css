@@ -37,6 +37,7 @@ header{
   letter-spacing: 0.5px;
   padding: 10px 20px;
   transition: all .42s;
+  text-decoration: none;
 }
 .navbar a:hover{
   color: lightblue;
@@ -164,6 +165,7 @@ header{
   letter-spacing: 1px;
   font-weight: 500;
   margin-right: 15px;
+  text-decoration: none;
   transition: all .42s;
 }
 
@@ -173,7 +175,8 @@ header{
   display: inline-block;
   border-radius: 8px;
   padding: 12px 3px;
-  letter-spacing: 1.5px; 
+  letter-spacing: 1.5px;
+  text-decoration: none;
   
 }
 .content .btn2 a:hover{
