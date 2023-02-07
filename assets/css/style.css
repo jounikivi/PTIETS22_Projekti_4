@@ -100,7 +100,6 @@ header{
 }
 
 .content h1{
-  font-family: sans-serif;
   color: #fff;
   font-size: 50px;
   font-weight: 700;
@@ -109,6 +108,7 @@ header{
 }
 
 .content p{
+  font-family: sans-serif;
   color: wheat;
   font-size: 19px;
   margin-top: 12px;
