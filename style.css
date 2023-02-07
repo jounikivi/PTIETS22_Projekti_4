@@ -11,6 +11,7 @@
   background-size: cover;
 } 
 header{
+  font-family: sans-serif;
   position: fixed;
   width: 100%;
   top: 0;
