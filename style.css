@@ -11,7 +11,7 @@
   background-size: cover;
 } 
 header{
-  font-family: sans-serif;
+  
   position: fixed;
   width: 100%;
   top: 0;
@@ -28,9 +28,11 @@ header{
   height: auto;
 }
 .navbar{
+  
   display: flex;
 }
 .navbar a{
+  font-family: sans-serif;
   color: aliceblue;
   font-size: 17px;
   text-transform: capitalize;
