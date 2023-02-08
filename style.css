@@ -99,12 +99,15 @@ header{
  padding: 0px 60px;
 }
 
-.content h1{
+.content h1 {
   color: #fff;
   font-size: 50px;
   font-weight: 700;
   letter-spacing: 1.5;
   
+}
+h2{
+  color: #fff;
 }
 
 .content p{
@@ -148,7 +151,7 @@ header{
 @media screen and (max-width: 768px) {
   
   
-  .content .h1{
+  .content .h1 .h2{
     font-size: 40px;
   }
   .content p{
