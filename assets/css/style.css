@@ -4,52 +4,71 @@
   box-sizing: border-box;
 }
 
-.header{
+ .tausta{
   min-height: 100vh;
-  background-image: url("../kuvat/tausta.png");
+  background-image: url("../kuvat/taivas.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-}
-
-
-.navbar{
+} 
+header{
+  position: fixed;
   width: 100%;
-  color: whitesmoke;
+  top: 0;
+  right: 0;
+  z-index: 1000;
   display: flex;
+  align-items: center;
   justify-content: space-between;
-  align-items: center;
-  padding: 10px 60px;
+  padding: 30px 10%;
 }
-
-.navbar .logo{
-  font-size: 25px;
-  font-weight: 500;
-  margin: 10px 0px;
+.logo img{
+  max-width: 100%;
+  width: 170px;
+  height: auto;
 }
-
-.menu ul{
+.navbar{
   display: flex;
-  justify-content: center;
+}
+.navbar a{
+  color: aliceblue;
+  font-size: 17px;
+  text-transform: capitalize;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  padding: 10px 20px;
+  transition: all .42s;
+  text-decoration: none;
+}
+.navbar a:hover{
+  color: lightblue;
+}
+
+.btn-icon{
+  display: flex;
   align-items: center;
 }
-
-.menu ul li{
-  list-style: none;
-  padding: 10px 20px;
-  border-radius: 3px;
-  cursor: pointer;
-}
-
-.menu ul li a{
+.btn{
+  display: inline-block;
+  font-size: 19px;
+  text-transform: capitalize;
+  color: #fff;
+  border: 2px solid  lightblue;
+  padding: 10px 30px;
+  border-radius: 30px;
+  background-color: lightblue;
+  letter-spacing: 1px;
+  font-weight: 500;
+  margin-right: 15px;
+  transition: all .42s;
   text-decoration: none;
-  font-size: 25px;
-  color: aqua;
+}
+.btn:hover{
+  background-color: transparent;
 }
 
-.menu ul li:hover{
-  background-color: blueviolet;
-  transition: 0.5s ease;
-}
+
+
+
 
 .btn1{
   position: absolute;
@@ -89,75 +108,210 @@
 }
 
 .content p{
+  font-family: sans-serif;
   color: wheat;
   font-size: 19px;
   margin-top: 12px;
   line-height: 1.5;
 }
 
-.content .btn {
+.content .btn2 {
   margin-top: 27px;
+  display: inline-block;
+  font-size: 19px;
+  text-transform: capitalize;
+  color: #fff;
+  border: 2px solid  lightblue;
+  padding: 10px 30px;
+  border-radius: 30px;
+  background-color: lightblue;
+  letter-spacing: 1px;
+  font-weight: 500;
+  margin-right: 15px;
+  text-decoration: none;
+  transition: all .42s;
 }
 
-.content .btn a{
+.content .btn2 a{
   text-decoration: none;
   font-size: 15px;
-  color: azure;
   display: inline-block;
-  background-color: green;
-  border-radius: 3px;
+  border-radius: 8px;
   padding: 12px 3px;
   letter-spacing: 1.5px;
+  text-decoration: none;
+  
 }
-.content .btn a:hover{
-  background-color: aqua;
-  transform: 0.5s ease;
+.content .btn2 a:hover{
+  background-color: transparent;
 }
 
 @media screen and (max-width: 768px) {
-  .btn1{
-    display: flex;
-    z-index: 2;
-  }
-  .menu ul{
-    width: 100%;
-    background-color: red;
-    flex-direction: column;
-    align-items: center;
-    padding-right: 0px;
-    text-align: center;
-    justify-content: center;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: 1;
-  }
-  .menu{
-    display: none;
-    width: 100%;
-  }
-  .menu ul li{
-    margin: 10px 0px;
-  }
-  .menu ul li a{
-    font-size: 19px;
-  }
-  .navbar .logo{
-    font-size: 29px;
-  }
+  
+  
   .content .h1{
     font-size: 40px;
+
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
   }
-  .content p{
-    font-size: 16px;
+  
+   .tausta{
+    min-height: 100vh;
+    background-image: url("../kuvat/taivas.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  } 
+  header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 10%;
   }
-  .content .btn a{
-    font-size: 17px;
-    padding: 9px 15px;
+  .logo img{
+    max-width: 100%;
+    width: 150px;
+    height: auto;
   }
-  .menu.active{
+  .navbar{
     display: flex;
   }
-
+  .navbar a{
+    color: aliceblue;
+    font-size: 17px;
+    text-transform: capitalize;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    padding: 10px 20px;
+    transition: all .42s;
+    text-decoration: none;
+  }
+  .navbar a:hover{
+    color: lightblue;
+  }
+  
+  .btn-icon{
+    display: flex;
+    align-items: center;
+  }
+  .btn{
+    display: inline-block;
+    font-size: 19px;
+    text-transform: capitalize;
+    color: #fff;
+    border: 2px solid  lightblue;
+    padding: 10px 30px;
+    border-radius: 30px;
+    background-color: lightblue;
+    letter-spacing: 1px;
+    font-weight: 500;
+    margin-right: 15px;
+    transition: all .42s;
+    text-decoration: none;
+  }
+  .btn:hover{
+    background-color: transparent;
+  }
+  
+  
+  
+  
+  
+  .btn1{
+    position: absolute;
+    top: 28px;
+    right: 60px;
+    display: none;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 22px;
+    width: 32px;
+  }
+  
+  .btn1 .bar{
+    height: 4px;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 10px;
+  }
+  
+  .content{
+   width: 100%;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   text-align: center;
+   
+   padding: 0px 60px;
+  }
+  
+  .content h1{
+    color: #fff;
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: 1.5;
+    
+  }
+  
+  .content p{
+    color: wheat;
+    font-size: 19px;
+    margin-top: 12px;
+    line-height: 1.5;
+  }
+  
+  .content .btn2 {
+    margin-top: 27px;
+    display: inline-block;
+    font-size: 19px;
+    text-transform: capitalize;
+    color: #fff;
+    border: 2px solid  lightblue;
+    padding: 10px 30px;
+    border-radius: 30px;
+    background-color: lightblue;
+    letter-spacing: 1px;
+    font-weight: 500;
+    margin-right: 15px;
+    text-decoration: none;
+    transition: all .42s;
+  }
+  
+  .content .btn2 a{
+    text-decoration: none;
+    font-size: 15px;
+    display: inline-block;
+    border-radius: 8px;
+    padding: 12px 3px;
+    letter-spacing: 1.5px;
+    text-decoration: none;
+    
+  }
+  .content .btn2 a:hover{
+    background-color: transparent;
+  }
+  
+  @media screen and (max-width: 768px) {
+    
+    
+    .content .h1{
+      font-size: 40px;
+    }
+    .content p{
+      font-size: 16px;
+    }
+    .content .btn a{
+      font-size: 17px;
+      padding: 9px 15px;
+    }
+  }
+  
 }
