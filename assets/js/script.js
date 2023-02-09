@@ -1,7 +1,14 @@
-let menu = document.querySelector("#menu-icon");
-let navbar = document.querySelector(".navbar");
+const hamburger = document.querySelector(".hamburger");
+const navLinks = document.querySelector(".nav-links");
+const links = document.querySelectorAll(".nav-links li");
 
-menu.onclick = () =>{
-    menu.classList.toggle('bx-x');
-    navbar.classList.toggle('open');
-}
+hamburger.addEventListener('click', ()=>{
+   //Links
+    navLinks.classList.toggle("open");
+    links.forEach(link => {
+        link.classList.toggle("fade");
+    });
+
+    //Animation
+    hamburger.classList.toggle("toggle");
+});
