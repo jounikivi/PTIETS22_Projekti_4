@@ -33,15 +33,23 @@
       </ul>
   </nav>
   <div class="content">
-    <form action="/action_page.php">
-    <label for="fname">Etunimi:</label><br>
-    <input type="text"name="palaute" id="fname" name="fname" value=""><br>
-    <label for="lname">Sukunimi:</label><br>
-    <input type="text" id="lname" name="lname" value=""><br><br>
-    <label for="address">Palaute:</label>
-<textarea rows="3" cols="30" name="palaute" id="palaute"></textarea> <br><br>
-    <input type="submit" value="Lähetä">
-  </form>
+    <div class="wrapper">
+      <div class="title">
+        <h1>Ota yhteyttä</h1>
+      </div>
+      <div class="contact-form">
+        <div class="input-fields">
+          <input type="text" class="input" placeholder="Nimi">
+          <input type="text" class="input" placeholder="Email">
+          <input type="text" class="input" placeholder="Puhelin">
+          <input type="text" class="input" placeholder="Palaute">
+        </div>
+        <div class="msg">
+          <textarea placeholder="Message"></textarea>
+          <div class="btn">send</div>
+        </div>
+      </div>
+    </div>
 </div>
 
 <script src="assets/js/script.js"></script>
