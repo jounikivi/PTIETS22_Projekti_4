@@ -1,6 +1,6 @@
 *{
   margin:0; padding:0;
-  color:#f2f5f7;
+  color:#b3cde0;
   font-family: sans-serif;
   letter-spacing: 1px;
   font-weight: 300;
@@ -62,7 +62,7 @@ nav{
 }
 
 .nav-links li a:hover{
-  color:#000;
+  color: darkblue; 
   background-color: #b3cde0;
   padding: 10px;
   border-radius: 50px;
@@ -75,6 +75,8 @@ nav{
 .nav-links li a:hover::before{
   width: 80%;
 }
+
+
 
 
 /*nappi tyyli*/
@@ -110,9 +112,6 @@ nav{
   display: none;
 }
 
-
-
-
 .content{
  width: 100%;
  position: absolute;
@@ -125,8 +124,15 @@ nav{
 } 
 
 .content h1{
-  color: #fff;
+  color: lightblue;
   font-size: 50px;
+  font-weight: 700;
+  letter-spacing: 1.5;
+  
+}
+.content h2{
+  color: #f2f5f7;
+  font-size: 20px;
   font-weight: 700;
   letter-spacing: 1.5;
   
@@ -134,7 +140,7 @@ nav{
 
 .content p{
   font-family: sans-serif;
-  color: wheat;
+  color: #b3cde0;
   font-size: 19px;
   margin-top: 12px;
   line-height: 1.5;
@@ -171,6 +177,7 @@ nav{
   background-color: transparent;
 }
 
+
 @media screen and (max-width: 768px) {
   
   
@@ -182,6 +189,7 @@ nav{
     box-sizing: border-box;
 
   }
+  
   
    .tausta{
     min-height: 100vh;
@@ -209,7 +217,7 @@ nav{
     display: flex;
   }
   .navbar a{
-    color: aliceblue;
+    color: lightblue;
     font-size: 17px;
     text-transform: capitalize;
     font-weight: 500;
@@ -283,17 +291,11 @@ nav{
     font-size: 50px;
     font-weight: 700;
     letter-spacing: 1.5;
+    
   }
-  .content h2{
-    color: #fff;
-    font-size: 20px;
-    font-weight: 700;
-    letter-spacing: 1.5;
-  }
-
   
   .content p{
-    color: wheat;
+    color: lightblue;
     font-size: 19px;
     margin-top: 12px;
     line-height: 1.5;
