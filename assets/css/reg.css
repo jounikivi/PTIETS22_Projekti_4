@@ -48,7 +48,7 @@ input[type="text"]:focus,
 input[type="email"]:focus,
 input[type="password"]:focus {
   outline: 0;
-  background: #0074c2;
+  
   border-radius: 1.2rem;
   border-color: transparent;
 }
