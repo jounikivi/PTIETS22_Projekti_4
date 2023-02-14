@@ -283,8 +283,14 @@ nav{
     font-size: 50px;
     font-weight: 700;
     letter-spacing: 1.5;
-    
   }
+  .content h2{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 1.5;
+  }
+
   
   .content p{
     color: wheat;
