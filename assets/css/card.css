@@ -15,11 +15,11 @@
   /*grid-template-column: repeat(5, 1fr); */
 }
 .card .img-container {
-  /* width: 210px;  */
+  /* width: 310px;   */
   height: 100%;
   grid-column: 2;
   background-color: #c1b7b4;
-  background-image: url(../kuvat/ryhmä.jpg);
+  /* background-image: url(../kuvat/ryhmä.jpg); */
   background-size: cover;
   background-position: center center;
 }
@@ -38,7 +38,7 @@ h1 {
   color: lightblue;
 }
 p{
-  color: whitesmoke;
+  color: white;
 }
 .card-content .author {
   border-top: 1px solid #cdcdcd;
