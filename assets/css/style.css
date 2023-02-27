@@ -8,14 +8,15 @@
 }
 
  .tausta{
-  min-height: 100vh;
-  background-image: url("../kuvat/taivas.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
+  
 } 
 
 body{
   overflow: hidden;
+  min-height: 100vh;
+  background-image: url("../kuvat/taivas.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 
 }
 
@@ -140,7 +141,7 @@ nav{
 
 .content p{
   font-family: sans-serif;
-  color: #b3cde0;
+  color: #fff;
   font-size: 19px;
   margin-top: 12px;
   line-height: 1.5;
@@ -316,7 +317,7 @@ nav{
   }
   
   .content p{
-    color: lightblue;
+    color: #fff;
     font-size: 19px;
     margin-top: 12px;
     line-height: 1.5;
