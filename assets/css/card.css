@@ -37,6 +37,9 @@ h1 {
   margin-bottom: 0;
   color: lightblue;
 }
+p{
+  color: whitesmoke;
+}
 .card-content .author {
   border-top: 1px solid #cdcdcd;
   font-weight: 700;
