@@ -8,14 +8,15 @@
 }
 
  .tausta{
-  min-height: 100vh;
-  background-image: url("../kuvat/taivas.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
+  
 } 
 
 body{
   overflow: hidden;
+  min-height: 100vh;
+  background-image: url("../kuvat/taivas.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 
 }
 
