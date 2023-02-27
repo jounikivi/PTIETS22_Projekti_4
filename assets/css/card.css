@@ -15,11 +15,11 @@
   /* grid-template-column: repeat(5, 1fr); */
 }
 .card .img-container {
-  width: 310px;
+  width: 310px; 
   height: 100%;
   grid-column: 2;
   background-color: #c1b7b4;
-  /* background-image: url('../kuvat/ryhmä.jpg'); */
+  background-image: url(../kuvat/ryhmä.jpg);
   background-size: cover;
   background-position: center center;
 }
