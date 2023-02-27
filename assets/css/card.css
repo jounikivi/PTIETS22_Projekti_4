@@ -15,8 +15,8 @@
   /* grid-template-column: repeat(5, 1fr); */
 }
 .card .img-container {
-  width: 310px; 
-  height: 100%;
+  width: 410px; 
+  height: auto;
   grid-column: 2;
   background-color: #c1b7b4;
   background-image: url(../kuvat/ryhmä.jpg);
