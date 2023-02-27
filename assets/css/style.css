@@ -1,15 +1,12 @@
 *{
   margin:0; padding:0;
-  color:#b3cde0;
+  color: #fff;;
   font-family: sans-serif;
   letter-spacing: 1px;
   font-weight: 300;
   box-sizing: border-box;
 }
 
- .tausta{
-  
-} 
 
 body{
   overflow: hidden;
@@ -304,7 +301,7 @@ nav{
    left: 50%;
    transform: translate(-50%, -50%);
    text-align: center;
-text-decoration: none;
+   text-decoration: none;
    padding: 0px 60px;
   }
   
@@ -317,7 +314,7 @@ text-decoration: none;
   }
   
   .content p{
-    color: lightblue;
+    color: #fff;
     font-size: 19px;
     margin-top: 12px;
     line-height: 1.5;
