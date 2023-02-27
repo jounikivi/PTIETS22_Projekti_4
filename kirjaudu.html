@@ -8,13 +8,14 @@
   <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
   <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/reg.css">
   <!-- <link rel="stylesheet" href="assets/css/nav.css"> -->
   <title>Unisome</title>
 </head>
 <body>
     <nav>
       <div class="logo">
-          <img src="assets/kuvat/Unisome2.png" alt="Unisome logo">
+          <img src="assets/kuvat/Unisome_new2.png" alt="Unisome logo">
       </div>
       <div class="hamburger">
           <div class="bars1"></div>
@@ -30,14 +31,29 @@
         <li><button class="yhteys-button"><a href="otayhteytta.html">Ota yhteyttä</a></button></li>
       </ul>
   </nav>
-
   <div class="content">
-   
-    <p><p>Tämä on viellä työnalla</p></p>
+    <div id="container">
+      <h1>Kirjaudu</h1>
+      <form method="post">
+         <fieldset>
+            <br/>
+            <input type="text" name="username" id="username" placeholder="käyttäjänimi" required autofocus>
+            <br/><br/>
+            <input type="password" name="password" id="password" placeholder="Salasana" required>
+          
+
+            <br/> <br/> <br/>
+            <label for="submit"></label>
+            <input type="submit" name="submit" id="submit" value="Kirjaudu">
+         </fieldset>
+      </form>
+   </div>
+  </div>
+</div>
     
   </div>
 </div>
-<!-- </section> -->
+
 <script src="assets/js/script.js"></script>
 </body>
 </html>
