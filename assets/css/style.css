@@ -230,8 +230,8 @@ nav{
   }
   .logo img{
     max-width: 100%;
-    width: 150px;
-    height: auto;
+    width: auto;
+    height: auto; 
   }
   .navbar{
     display: flex;
