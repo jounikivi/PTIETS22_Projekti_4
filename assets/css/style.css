@@ -30,14 +30,14 @@ nav{
 /*  Logo*/
 
 .logo{
-  padding: 3vh 3vw;
+  padding: 1vh 2vw;
   text-align: left;
   width: 20vw;
 }
 
 .logo img{
   height: auto;
-  width: 7rem;
+  width: 14rem;
 }
 
 /*  Nav Links*/
