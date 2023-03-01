@@ -12,3 +12,7 @@ hamburger.addEventListener('click', ()=>{
     //Animation
     hamburger.classList.toggle("toggle");
 });
+
+function googleTranslateElementInit() {
+    new google.translate.TranslateElement({pageLanguage: 'fi'}, 'google_translate_element');
+  }
