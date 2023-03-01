@@ -24,9 +24,9 @@
   background-position: center center;
 }
 .card-content {
-  grid-column: 3 / 5;
-  /*padding: 10px 30px;*/
-  padding: 24px 24px;
+  grid-column: 2 / 5;
+  padding: 10px 30px;
+  /*padding: 24px 24px;*/
   border-left: 1px solid #ccc;
   
 }
