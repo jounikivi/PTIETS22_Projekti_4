@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fi">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,7 +12,7 @@
   <title>Unisome</title>
 </head>
 <body>
-
+  
     <nav>
       <div class="logo">
           <img src="assets/kuvat/Unisome_new2.png" alt="Unisome logo">
@@ -28,23 +28,38 @@
         <li><a href="kirjaudu.html">Kirjaudu</a></li>
         <li><a href="rekisteröidy.html">Rekisteröidy</a></li>
         <li><a href="premium.html">Jäsenyydet</a></li>
-        <li><a href="tiimi.html">Tiimi</a></li>
+        <!-- <li><a href="tiimi.html">Me</a></li> -->
         <li><button class="yhteys-button"><a href="otayhteytta.html">Ota yhteyttä</a></button></li>
       </ul>
+      <div id="google_translate_element"></div>
+
+      <script type="text/javascript">
+        function googleTranslateElementInit() {
+          new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+        }
+        </script>
+        
+        <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
   </nav>
   <div class="content">
 
    
     <h1>Unisome</h1>
+  
+    
     <p>Tee unistasi totta, sekä päiväkirjoistasi eläviä! 
       <br> Lataa sovellus
     Appstoresta tai Google Playsta.</p>
     <br>
-
+    
     <button class="yhteys-button"><a href="tietoja.html">Lue lisää</a></button>
+    
+    
 </div>
 </div>
+
 
 <script src="assets/js/script.js"></script>
+
 </body>
 </html>
