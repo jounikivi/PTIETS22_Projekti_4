@@ -15,11 +15,11 @@
   /*grid-template-column: repeat(5, 1fr); */
 }
 .card .img-container {
-  /* width: 310px;   */
+  width: 310px;
   height: 100%;
   grid-column: 2;
   background-color: #c1b7b4;
-  /* background-image: url(../kuvat/ryhmä.jpg); */
+  background-image: url(../kuvat/ryhmä.jpg);
   background-size: cover;
   background-position: center center;
 }
@@ -46,6 +46,20 @@ p{
   margin-top: 25px;
   padding: 25px 0 10px 0;
   color: #fff;
+}
+
+@media only screen and (max-width:200px) {
+  .card {
+    display: block;
+  }
+  .card .img-container {
+    height: 250px;
+    width: 100%;
+  }
+  .card-content {
+    border: 0;
+    border-top: 1px solid #ccc;
+  }
 }
 
 @media only screen and (max-width:600px) {
