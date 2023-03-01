@@ -6,54 +6,54 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
   <link rel="stylesheet" href="assets/css/style.css">
-  <link rel="stylesheet" href="assets/css/card2.css">
+  <link rel="stylesheet" href="assets/css/responmenu.css">
   <title>Unisome</title>
 
 </head>
+<div id="google_translate_element"></div>
 <body>
-    <nav>
-      <div class="logo">
-          <img src="assets/kuvat/Unisome_v3.png" alt="Unisome logo">
-      </div>
-      <div class="hamburger">
-          <div class="bars1"></div>
-          <div class="bars2"></div>
-          <div class="bars3"></div>
-      </div>
-      <ul class="nav-links">
+  <section class="tausta">
+    <header>
+      <a href="#" class="logo"><img src="assets/kuvat/Unisome2.png" alt=""></a>
+
+      <ul class="navbar">
         <li><a href="index.html">Koti</a></li>
         <li><a href="tietoja.html">Tietoja</a></li>
         <li><a href="kirjaudu.html">Kirjaudu</a></li>
         <li><a href="rekisteröidy.html">Rekisteröidy</a></li>
-        <li><a href="premium.html">Jäsenyydet</a></li>
-        <li><a href="tiimi.html">Tiimi</a></li>
-        <li><button class="yhteys-button"><a href="otayhteytta.html">Ota yhteyttä</a></button></li>
+        <li><a href="premium.html">Premium</a></li>
       </ul>
-  </nav>
-  <div class="container">
-    <div class="card">
-      <!--<div class="img-container"></div> -->
-      <div class="card-content">
-        <h2></h2>
-        <h1>Mitä teemme?</h1>
-        <br>
-        <p>Päiväkirjan pitäminen ei ole koskaan ollut näin helppoa ja hauskaa! Unisome-sovelluksen avulla voit pitää niin tavallista päiväkirjaa, kuten myös unipäiväkirjaa.
-          Sovelluksemme kehittynyt tekoäly tekee kirjoituksestasi kuvia. Voit helposti ikuistaa näkemäsi unet kirjoittamalla ne ylös,
-          jolloin sovelluksemme kuvittaa ne sinulle. Premium versiolla pystyt jopa muuttamaan puheen tekstiksi, ja tätä kautta kuviksi, 
-          tehden päiväkirjan pidosta entistä helpompaa</p>
-          <br>
-          <h1>Kerro kavereillesi</h1>
-          <br>
-          <p>Sovelluksessamme voit jakaa kavereiden ja perheen kanssa juuri sinun päiväkirjastasi tehdyt kuvat. Voit samalla katsoa,
-            mitä ystävillesi, tai vaikka veljellesi kuuluu.</p>
-        </p>
-        
+      <div class="btn-icon">
+        <a href="otayhteytta.html" class="btn">Ota yhteyttä</a>
+
+      <div class="bx bx-menu" id="menu-icon"></div>
       </div>
-    </div>
+  </header>
+
+  <div class="content">
+
+    <h1>Mitä teemme?</h1>
+    <p>Päiväkirjan pitäminen ei ole koskaan ollut näin helppoa ja hauskaa!
+      Unisome-sovelluksen avulla voit pitää niin tavallista päiväkirjaa, kuten myös unipäiväkirjaa.
+      Sovelluksemme kehittynyt tekoäly tekee kirjoituksestasi kuvia. Voit helposti ikuistaa näkemäsi unet kirjoittamalla ne ylös,
+      jolloin sovelluksemme kuvittaa ne sinulle. Premium versiolla pystyt jopa muuttamaan puheen tekstiksi, ja tätä kautta kuviksi, 
+      tehden päiväkirjan pidosta entistä helpompaa. 
+    </p>
+    <br>
+    <h2>Kerro kavereillesi.</h2>
+    <p>Sovelluksessamme voit jakaa kavereiden ja perheen kanssa juuri sinun päiväkirjastasi tehdyt kuvat. Voit samalla katsoa,
+    mitä ystävillesi, tai vaikka veljellesi kuuluu.
+  </p>
+  <img srcset="elva-fairy-480w.jpg 480w, elva-fairy-800w.jpg 800w"
+  sizes="(max-width: 600px) 480px,
+         800px"
+  src="elva-fairy-800w.jpg"
+  alt="Elva dressed as a fairy" />
   </div>
+</div>
 
 <script src="assets/js/script.js"></script>
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 </body>
 </html>
